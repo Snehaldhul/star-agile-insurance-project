@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: insurance
-          image: snehaldhul/healthcare-image:latest
+          image: snehaldhul/insurance-image:latest
           ports:
             - containerPort: 8082
           env:
